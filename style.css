@@ -1,0 +1,14 @@
+header {
+  position: fixed;
+}
+body {
+  background-color: blanchedalmond;
+}
+h1 {
+  color: rgb(231, 137, 14);
+  font-family: serif;
+  font-style: italic;
+}
+img {
+  width: 200px;
+}

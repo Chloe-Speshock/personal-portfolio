@@ -4,14 +4,36 @@ header {
 body {
   background-color: blanchedalmond;
 }
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px;
+}
+a:hover {
+  background-color: yellow;
+}
 h1 {
   color: rgb(231, 137, 14);
   font-family: serif;
   font-style: italic;
+  grid-column: 1 / 5;
+  text-align: center;
 }
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
 img {
-  width: 200px;
+  width: 250px;
+  transition: width 2s;
+}
+img:hover {
+  width: 350px;
 }
 .header {
   background-color: rgb(231, 137, 14);
+}
+li:nth-child(odd) {
+  background-color: lightyellow;
 }
